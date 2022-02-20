@@ -1,4 +1,4 @@
-import {CHARACTER_LIST_FETCHED} from "./actionNames";
+import { CHARACTER_LIST_FETCHED } from "./actionNames";
 
 export const characterListReducer = (state = {}, {type, characters, page}) => {
     switch (type) {
