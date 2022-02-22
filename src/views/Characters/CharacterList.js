@@ -13,15 +13,15 @@ export const CharacterList = ({characterList, pageNumber}) => {
                     >
                         <Box
                             sx={{
-                                bgcolor: 'background.paper',
-                                padding: '20px',
-                                borderRadius: '4px',
-                                textDecoration: 'none',
-                                color: 'text.primary',
-                                transition: 'all 0.3s linear',
+                                bgcolor: "background.paper",
+                                padding: "20px",
+                                borderRadius: "4px",
+                                textDecoration: "none",
+                                color: "text.primary",
+                                transition: "all 0.3s linear",
                                 ":hover": {
-                                    bgcolor: 'secondary.main',
-                                    color: 'common.white',
+                                    bgcolor: "secondary.main",
+                                    color: "common.white",
                                 }
                             }}
                             >

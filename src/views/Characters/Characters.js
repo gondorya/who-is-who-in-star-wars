@@ -16,9 +16,9 @@ const Characters = ({fetchCharacters, characterList, pagesCount}) => {
 
     return (
     <Container
-        maxWidth={"sm"}
+        maxWidth={"md"}
         sx={{
-            backgroundColor: 'primary.light',
+            backgroundColor: "primary.light",
             padding: "40px 20px",
             borderRadius: "4px"
         }}
